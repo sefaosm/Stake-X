@@ -1,0 +1,8 @@
+{
+    "devnet": {
+        "staking-contract": "erd1qqqqqqqqqqqqqpgqd9rvv2n378e27jcts8vfwynpx0gfl4f57gnm",
+        "deploy_transaction": "ba49a...9bed",
+        "timestamp": "2024-12-29",
+        "network": "devnet"
+    }
+}

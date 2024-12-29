@@ -1,0 +1,12 @@
+# .gitignore
+node_modules/
+.env
+.env.local
+target/
+**/target/
+wasm/
+output/
+**/output/
+dist/
+build/
+.vercel

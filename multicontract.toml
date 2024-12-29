@@ -1,0 +1,3 @@
+[contracts.staking-contract]
+name = "staking-contract"
+add-unlabelled = true

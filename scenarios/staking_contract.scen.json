@@ -1,0 +1,44 @@
+{
+    "name": "staking contract scenario",
+    "steps": [
+        {
+            "step": "setState",
+            "accounts": {
+                "address:owner": {
+                    "nonce": "0",
+                    "balance": "1000000000000000000",
+                    "storage": {}
+                },
+                "address:user1": {
+                    "nonce": "0",
+                    "balance": "1000000000000000000",
+                    "storage": {}
+                }
+            },
+            "newAddresses": [
+                {
+                    "creatorAddress": "address:owner",
+                    "creatorNonce": "0",
+                    "newAddress": "sc:staking"
+                }
+            ]
+        },
+        {
+            "step": "scDeploy",
+            "id": "deploy-staking",
+            "tx": {
+                "from": "address:owner",
+                "contractCode": "file:output/staking-contract.wasm",
+                "arguments": ["500"],
+                "value": "0",
+                "gasLimit": "5,000,000",
+                "gasPrice": "0"
+            },
+            "expect": {
+                "status": "0",
+                "gas": "*",
+                "refund": "*"
+            }
+        }
+    ]
+}
