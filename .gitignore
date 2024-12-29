@@ -1,12 +1,21 @@
-# .gitignore
+# Dependencies
 node_modules/
+
+# Environment variables
 .env
 .env.local
+
+# Build directories
 target/
 **/target/
-wasm/
-output/
-**/output/
 dist/
 build/
 .vercel
+
+# Rust build artifacts
+**/*.rs.bk
+Cargo.lock
+
+# IDE files
+.idea/
+.vscode/
