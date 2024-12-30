@@ -24,7 +24,7 @@ A decentralized staking application built on MultiversX blockchain, allowing use
 - WebAssembly
 
 ## 🏗 Project Structure
-
+```
 staking-project/
 ├── staking-frontend/ # React frontend application
 │ ├── src/
@@ -35,7 +35,7 @@ staking-project/
 ├── src/
 │ └── lib.rs # Contract implementation
 └── wasm/ # Compiled contract
-
+```
 ## 🚦 Getting Started
 
 ### Prerequisites
