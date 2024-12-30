@@ -107,7 +107,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📞 Contact
 
 Email: sfsmnl@gmail.com
-linkedin: linkedin.com/in/sefaosm
+linkedin: https://www.linkedin.com/in/sefaosm
 
 ---
 Built with ❤️ on MultiversX
